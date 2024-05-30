@@ -11,7 +11,7 @@ void main()
     print("2. delete element");
     print("3. update element");
     print("4. view array");
-    print("0. exit");
+    print("5. exit");
 
     stdout.write("Enter your choice: ");
     int choice= int.parse(stdin.readLineSync()!);
@@ -100,7 +100,10 @@ void main()
           }
         }
         break;
-     
+
+      case 5:
+            exit(0);
+             break;
       default:
         print("Invalid choice!");
     }
