@@ -79,11 +79,11 @@ void main()
 {
   List<Customer> customers = [];
   List<Product> products = [
-    Product(1, 'chocolet', 150.0),
-    Product(2, 'mix dry fruit', 300.0),
-    Product(3, 'all stationary', 200.0),
-    Product(4, 'Sport wear', 800.0),
-    Product(5, 'Snaks', 50.0)
+    Product(1, 'chocolet', 1000.0),
+    Product(2, 'mix dry fruit', 3000.0),
+    Product(3, 'all stationary', 2000.0),
+    Product(4, 'Sport wear', 4000.0),
+    Product(5, 'Snaks', 200.0)
   ];
 
   while (true) {
